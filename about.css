@@ -1,0 +1,17 @@
+body{
+	margin: 0 auto;
+	padding: 20%;
+	overflow-x: hidden;
+	background-color: #F79F1F;
+	color:white;
+}
+
+.slika {
+	border: 1px solid transparent;
+	border-radius: 5px;
+}
+
+.about {
+	color: white;
+}
+

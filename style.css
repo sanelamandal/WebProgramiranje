@@ -1,0 +1,163 @@
+/*Za pristup elementu preko nth (npr. child 1 je prvo dijete tog tipa) koristila sam:
+https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child */
+
+body{
+	padding: 0;
+	margin: 0 auto;
+	overflow-x: hidden;
+	background-color: #F79F1F;
+}
+#wrapp{
+	
+	width: 100vw;
+	overflow: hidden;
+}
+
+ #wrapp header {
+	background-color:#ced6e0;
+	border: 1px solid transparent;
+	border-bottom-left-radius: 30%;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	padding-top: 5%;
+}
+
+.navigacija{
+	background-color:#ced6e0;
+	overflow: hidden;
+}
+
+.navbar {
+	background-color:#ced6e0;
+}
+.dropdown-menu {
+	border: none;
+	background-color: transparent;
+}
+
+.dropdown-item {
+	background-color: transparent;
+	color: black;
+}
+
+.dropdown-item:hover {
+	background-color: transparent;
+	color: grey;
+}
+
+.center {
+	display: block;			
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;				
+	border: 1px solid transparent;
+	border-radius: 50%;
+	padding: 10px;
+	margin-bottom: 2%;
+	margin-top: 8%;
+
+}
+
+.projekti {
+	padding-top: 2%;
+	height: 50vh;
+	text-align: center;
+	color: white;
+}
+
+.galerija {
+	padding-top: 2%;
+	height: 50vh;
+	text-align: center;
+	color: white;
+}
+
+.galerija a {
+	text-decoration: none;
+	text-transform: none;
+	color: white;
+}
+
+.clanak1 {
+
+	height: 50vh;
+	color: white;
+	padding: 5%;
+}
+
+.clanak2 {
+	height: 50vh;
+	color: white;
+	padding: 5%;
+}
+
+.projekti {
+	height: 50vh;
+}
+
+.projekti h1 {
+	font-size: 50px;
+	color: white;
+}
+
+footer {
+	color: grey;
+	background-color:#ced6e0;
+	border: 1px solid transparent;
+	border-top-right-radius: 30%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	width: 100vw;
+	margin-top: 2%;
+}
+
+#contact {
+	margin-top: 10%;
+}
+
+.button-orange{
+	border: 1px solid #F79F1F;
+	background-color: transparent;
+	color: #F79F1F;
+	padding: 8px 20px;
+}
+
+.button-orange:hover{
+	background-color: #F79F1F;
+	color: white;
+}
+
+.button-orange a{
+	text-decoration: none;
+	text-transform: none;
+	color: #F79F1F;
+}
+
+.button-orange a:hover{
+	color: white;
+}
+
+.button-white{
+	border: 1px solid #596275;
+
+}
+
+.button-white:hover{
+	background-color: #596275;
+}
+
+.button-white a{
+	text-decoration: none;
+	text-transform: none;
+	color: #fff;
+}
+
+.button-white a:hover{
+	color: white;
+
+}
+
+.social{
+	padding: 5% 10%;
+}

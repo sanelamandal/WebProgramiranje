@@ -1,0 +1,23 @@
+table, td {
+  border: 1px solid grey;
+}
+
+h1 {
+	color: orange;
+}
+
+h3 {
+	color: grey;
+}
+
+.introduction {
+	margin-top: 10%;
+}
+
+.features {
+	margin-top: 10%;
+}
+
+.offers {
+	margin-top: 10%;
+}
